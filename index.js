@@ -13,3 +13,25 @@ function appendKitten(name){
   newKittens.push(name)
   return newKittens
 }
+function prependKitten(name){
+  var newKittens = [...kittens]
+  newKittens.unshift(name)
+  return newKittens
+}
+ function destructivelyRemoveLastKitten(){
+  kittens.pop()
+  return kittens
+}
+ function destructivelyRemoveFirstKitten(){
+  kittens.shift()
+  return kittens
+}
+ function removeLastKitten(){
+  var newKittens = [...kittens]
+  newKittens.pop()
+  return newKittens
+}
+ function removeFirstKitten(){
+  var newKittens = [...kittens]
+  newKittens.shift()
+  return newKittens
