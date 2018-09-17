@@ -35,3 +35,4 @@ function prependKitten(name){
   var newKittens = [...kittens]
   newKittens.shift()
   return newKittens
+ }
